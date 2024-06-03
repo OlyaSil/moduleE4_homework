@@ -38,14 +38,14 @@ Computer.prototype.installSoftware = function(software) {
     console.log(`ПО ${software} установлено для ${this.name}.`);
 };
 
-const lamp = new DeskLamp('Desk Lamp', 15, 'white');
-const computer = new Computer('Computer', 150, 'Dell');
+const lamp = new DeskLamp('Лампа', 15, 'белая');
+const computer = new Computer('ПК', 150, 'Dell');
 
 lamp.plugIn();
 computer.plugIn();
 
 lamp.adjustBrightness(5);
-computer.installSoftware('Antivirus');
+computer.installSoftware('Касперский');
 
 function calculateTotalPower(appliances) {
     return appliances.reduce((total, appliance) => {

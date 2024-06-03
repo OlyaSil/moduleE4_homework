@@ -56,4 +56,4 @@ function calculateTotalPower(appliances) {
 const appliances = [lamp, computer];
 const totalPower = calculateTotalPower(appliances);
 
-console.log(`Общий объем потребляемой электроэнергии: ${totalPower}W`);
+console.log(`Общее потребление электроэнергии: ${totalPower}W`);
